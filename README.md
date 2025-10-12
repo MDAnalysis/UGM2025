@@ -71,7 +71,7 @@ style="float: left; height: 5em; " />
 
 <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2311372&HistoricalAwards=false">
 <img
-src="/logos/nsf.jpeg"
+src="/logos/nsf.jpg"
 title="U.S. National Science Foundation Logo" alt="U.S. National Science Foundation Logo"
 style="float: left; height: 5em; " />
 <a/>
