@@ -58,7 +58,9 @@ Written materials are provided under the [CC-BY-4.0 SA license](LICENSE.md).
 
 The MDAnalysis UGM has been made possible in part by:
 
-* Chan Zuckerberg Initiative (CZI) grants; 2022-253062 and DAF2021-237663 (grant DOI https://doi.org/10.37921/426590wiobus), from the Chan Zuckerberg Initiative DAF, an advised fund of Silicon Valley Community Foundation (funder DOI 10.13039/100014989)
+### Chan Zuckerberg Initiative (CZI)
+
+Chan Zuckerberg Initiative (CZI) grants; 2022-253062 and DAF2021-237663 (grant DOI https://doi.org/10.37921/426590wiobus), from the Chan Zuckerberg Initiative DAF, an advised fund of Silicon Valley Community Foundation (funder DOI 10.13039/100014989)
  
 <a href="https://chanzuckerberg.com/">
 <img
@@ -66,8 +68,10 @@ src="/logos/CZI_Logo.jpg"
 title="Chan Zuckerberg Initiative Logo" alt="Chan Zuckerberg Initiative Logo"
 style="float: left; height: 5em; " />
 <a/>
+
+### National Science Foundation
   
-* National Science Foundation, Elements grant 2311372
+National Science Foundation Elements grant 2311372
 
 <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2311372&HistoricalAwards=false">
 <img
@@ -75,6 +79,8 @@ src="/logos/nsf.jpg"
 title="U.S. National Science Foundation Logo" alt="U.S. National Science Foundation Logo"
 style="float: left; height: 5em; " />
 <a/>
+
+### NumFOCUS
 
 MDAnalysis also thanks [NumFOCUS](https://www.numfocus.org/) for its continued support as our fiscal sponsor.
 
