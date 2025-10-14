@@ -1,4 +1,4 @@
-# MDAnalysis UGM 2024
+# MDAnalysis UGM 2025
 
 <!---
 <img
