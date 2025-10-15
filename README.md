@@ -1,11 +1,12 @@
-# MDAnalysis UGM 2025
-
-<!---
 <img
-src="https://github.com/MDAnalysis/branding/blob/main/logos/UGM/2024/mdanalysis-ugm2024.png"
-title="MDAnalysis UGM 2024" alt="MDAnalysis UGM 2024"
-style="float: left; height: 10em; " />
--->
+src="./logos/UGM2025logo_textB.svg"
+title="MDAnalysis UGM 2025" alt="MDAnalysis UGM 2025"
+style="float: left; height: 25em;" 
+/>
+<div style="clear: both;"></div>
+
+
+# MDAnalysis UGM 2025
 
 The [2025 MDAnalysis User Group Meeting](https://www.mdanalysis.org/pages/ugm2025/) (UGM) will bring together users and developers of the MDAnalysis package from different communities. Our goal is to foster an interdisciplinary opportunity to connect for researchers and developers across biomolecular simulations, soft matter, biophysics and more. This repository includes relevant materials for the UGM.
 
