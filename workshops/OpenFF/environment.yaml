@@ -1,0 +1,14 @@
+name: openff-env
+channels:
+    - conda-forge
+dependencies:
+    - jupyter
+    - jupyter_contrib_nbextensions
+    - openff-toolkit-examples>=0.17.0 # New version needed for NAGL compat.
+    - openff-interchange>=0.4.7 # New version needed for NAGL compat.
+    - MDAnalysis
+    - prolif
+    - py3dmol # For 3D visualization of of interactions in prolif
+    - openbabel # For conversion of the pdbqt files to sdf (last exercise)
+    - rdkit
+    - nglview
