@@ -1,11 +1,15 @@
-<style>
-.md-content .md-typeset {
-    background-image: url("./logos/UGM2025logo_textB_transparent.png");
-    background-repeat: repeat; /* use 'background-repeat' for tiling */
-    background-size: contain;
-    background-position: center;
-}
-</style>
+<!--
+@file SCHEDULE.md
+@brief Master schedule document (Markdown).
+
+Rendering (to PDF):
+    pandoc SCHEDULE.md -H .header.tex -o SCHEDULE.pdf --pdf-engine=xelatex --variable=geometry:margin=1in
+
+-->
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{./logos/UGM2025logo_textB.png}
+\end{center}
 
 | Day                | Time Start | Time End   | Location  | Speaker(s)                     | Title                                                                 |
 |--------------------|------------|------------|-----------|--------------------------------|----------------------------------------------------------------------|
@@ -76,3 +80,26 @@
 |                    | 3:20 PM    | 3:35 PM    | PSF foyer |                                | *Tea / Coffee Break*                                                |
 |                    | 3:35 PM    | 4:35 PM    | PSF 186   | Hugo MacDermott-Opeskin       | OpenADMET Workshop                                                  |
 |                    | 4:35 PM    | 4:50 PM    | PSF 186   | Irfan Alibay                  | Closing Remarks                                                     |
+
+
+## The MDAnalysis UGM Has Been Made Possible in Part By:
+
+\begin{center}
+\begin{tabular}{@{} p{0.32\textwidth} p{0.32\textwidth} p{0.32\textwidth} @{} }
+\begin{minipage}[t]{\linewidth}
+\textbf{Chan Zuckerberg Initiative (CZI)}\\[0.5em]
+Chan Zuckerberg Initiative (CZI) grants; 2022-253062 and DAF2021-237663 (grant DOI \href{https://doi.org/10.37921/426590wiobus}{https://doi.org/10.37921/426590wiobus}), from the Chan Zuckerberg Initiative DAF, an advised fund of Silicon Valley Community Foundation (funder DOI 10.13039/100014989)\\[0.75em]
+\centering\includegraphics[height=5em]{logos/CZI_Logo.jpg}
+\end{minipage} &
+\begin{minipage}[t]{\linewidth}
+\textbf{National Science Foundation}\\[0.5em]
+National Science Foundation Elements grant 2311372\\[0.75em]
+\centering\includegraphics[height=5em]{logos/nsf.jpg}
+\end{minipage} &
+\begin{minipage}[t]{\linewidth}
+\textbf{NumFOCUS}\\[0.5em]
+MDAnalysis also thanks \href{https://www.numfocus.org/}{NumFOCUS} for its continued support as our fiscal sponsor.\\[0.75em]
+\centering\includegraphics[height=5em]{logos/numfocus-sponsored.png}
+\end{minipage} \\
+\end{tabular}
+\end{center}
