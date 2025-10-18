@@ -3,12 +3,12 @@
 @brief Master schedule document (Markdown).
 
 Rendering (to PDF):
-    pandoc SCHEDULE.md -H .header.tex -o SCHEDULE.pdf --pdf-engine=xelatex
+    pandoc SCHEDULE.md -H header.tex -o ../SCHEDULE.pdf --pdf-engine=xelatex
 
 -->
 
 \begin{center}
-\includegraphics[width=0.55\textwidth]{./logos/UGM2025logo_textB.png}
+\includegraphics[width=0.55\textwidth]{../logos/UGM2025logo_textB.png}
 \end{center}
 
 \begin{center}
@@ -20,22 +20,21 @@ Rendering (to PDF):
 | 9:00 AM | 9:15 AM | PSF 186 | Oliver Beckstein | Welcome and Opening, General Organization Remarks |
 | 9:15 AM | 9:45 AM | PSF 186 | Hugo MacDermott-Opeskin | MDAnalysis: Present and Future |
 | 9:45 AM | 10:45 AM | PSF 186 | Matthias Heyden | Keynote: Sub-Picosecond Timescale Information in Microsecond Simulations |
-| 10:45 AM | 11:30 AM | PSF foyer |  | *Tea / Coffee Break* |
+| 10:45 AM | 11:30 AM | PSF foyer |  | *Tea / Coffee Break w/ Meet and Greet* |
 | 11:30 AM | 11:50 AM | PSF 186 | Peter Zhang | Ion-Dependent Structural Ensemble and Phase Separation Propensity of Single-Stranded RNA |
 | 11:50 AM | 12:10 PM | PSF 186 | Jennifer A Clark | Hydration Contribution to the Solvation Free Energy of Water-Soluble Polymers |
 | 12:10 PM | 12:30 PM | PSF 186 | Amruthesh Thirumalaiswamy | Studying the Effect of Solvent Crowding on Protein Energy Landscapes |
-| 12:30 PM | 1:45 PM | PSF foyer |  | *Lunch* |
-| 1:45 PM | 2:05 PM | PSF 186 | Matthias Heyden | IMD Streaming Introduction |
-| 2:05 PM | 2:25 PM | PSF 186 | Lawson Woods | IMDv3 Streaming: Theory, Implementation, Technical Details |
-| 2:25 PM | 2:45 PM | PSF 186 | Amruthesh Thirumalaiswamy | IMDv3 in Practice: MD Packages, Performance |
-| 2:45 PM | 3:05 PM | PSF 186 | Heekun Cho | Streaming Applications Demo (2 Examples) |
-| 3:05 PM | 3:30 PM | PSF foyer |  | *Tea / Coffee Break* |
-| 3:30 PM | 4:30 PM | PSF 186 | Amruthesh Thirumalaiswamy | Streaming Workshop |
-| 4:30 PM | 4:50 PM | PSF 186 | Jamie Rowe | Integrating MDAnalysis Streaming Analysis with WESTPA |
-| 4:50 PM | 5:10 PM | PSF 186 | Heekun Cho | Streaming Applications Demo |
-| 5:10 PM | 5:20 PM | PSF foyer |  | *Tea / Coffee Break* |
-| 5:20 PM | 5:50 PM | PSF 186 |  | Open Hackathon |
-| 5:50 PM | 5:55 PM | PSF 186 | Irfan Alibay | Closing Remarks |
+| 12:30 PM | 2:30 PM | PSF foyer |  | *Lunch and Posters* |
+| 2:30 PM | 2:50 PM | PSF 186 | Matthias Heyden | IMD Streaming Introduction |
+| 2:50 PM | 3:10 PM | PSF 186 | Lawson Woods | IMDv3 Streaming: Theory, Implementation, Technical Details |
+| 3:10 PM | 3:30 PM | PSF 186 | Amruthesh Thirumalaiswamy | IMDv3 in Practice: MD Packages, Performance |
+| 3:30 PM | 3:45 PM | PSF foyer |  | *Tea / Coffee Break* |
+| 3:45 PM | 4:05 PM | PSF 186 | Heekun Cho | Streaming Applications Demo (2 Examples) |
+| 4:05 PM | 5:05 PM | PSF 186 | Amruthesh Thirumalaiswamy | Streaming Workshop |
+| 5:05 PM | 5:25 PM | PSF 186 | Jamie Rowe | Integrating MDAnalysis Streaming Analysis with WESTPA |
+| 5:25 PM | 5:35 PM | PSF foyer |  | *Tea / Coffee Break* |
+| 5:35 PM | 5:55 PM | PSF 186 | Heekun Cho | Streaming Applications Demo |
+| 5:55 PM | 6:00 PM | PSF 186 | Irfan Alibay | Closing Remarks |
 
 \newpage
 
@@ -94,7 +93,7 @@ Rendering (to PDF):
 |  |  |  | Jennifer A Clark | ZENO-MDAKit |
 |  |  |  | Michael A. Sauer | Dynamics-Informed Machine Learning: Physics-Guided Feature Importance Identifies Key Residues for Enzyme Design |
 | 11:50 AM | 12:00 PM | PSF 186 | Irfan Alibay | Intro to the Open Molecular Software Foundation (OMSF) |
-| 12:00 PM | 1:05 PM | PSF 186 | Jeffry Wagner, Jennifer A Clark | Open Force Field Workshop |
+| 12:00 PM | 1:05 PM | PSF 186 | Jeffrey Wagner, Jennifer A Clark | Open Force Field Workshop |
 | 1:05 PM | 2:20 PM | PSF foyer |  | *Lunch* |
 | 2:20 PM | 3:20 PM | PSF 186 | Mike Henry, Alyssa Travitz, Irfan Alibay | Open Free Energy Workshop |
 | 3:20 PM | 3:35 PM | PSF foyer |  | *Tea / Coffee Break* |
@@ -118,7 +117,7 @@ CZI Grants; 2022-253062 and DAF2021-237663
 
 From the CZI DAF, an advised fund of Silicon Valley Community Foundation [DOI: 10.13039/100014989]
 
-\includegraphics[height=5em]{logos/CZI_Logo.jpg}
+\includegraphics[height=5em]{../logos/CZI_Logo.jpg}
 \end{minipage} &
 \begin{minipage}[t]{\linewidth}
 \centering
@@ -126,7 +125,7 @@ From the CZI DAF, an advised fund of Silicon Valley Community Foundation [DOI: 1
 
 NSF Elements Grant 2311372
 
-\includegraphics[height=5em]{logos/nsf.jpg}
+\includegraphics[height=5em]{../logos/nsf.jpg}
 \end{minipage} &
 \begin{minipage}[t]{\linewidth}
 \centering
@@ -134,7 +133,7 @@ NSF Elements Grant 2311372
 
 MDAnalysis also thanks NumFOCUS for its continued support as our fiscal sponsor.
 
-\includegraphics[height=5em]{logos/numfocus-sponsored.png}
+\includegraphics[height=5em]{../logos/numfocus-sponsored.png}
 \end{minipage} \\
 \end{tabular}
 \end{center}
