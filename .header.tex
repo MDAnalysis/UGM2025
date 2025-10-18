@@ -1,5 +1,6 @@
 \usepackage{graphicx}
 \usepackage{tikz}
+\usetikzlibrary{calc}
 \usepackage{eso-pic}
 \usepackage{ifxetex}
 \usepackage{geometry}
@@ -44,13 +45,47 @@
     }
 }
 
-\fancyhead[L]{\includegraphics[height=0.8in]{\mdanalysislogofile}}
-\fancyhead[C]{\begin{tikzpicture}[baseline]\headerfooterboxes{3}\end{tikzpicture}}
-\fancyhead[R]{\begin{tikzpicture}[baseline]\headerfooterboxes{6}\end{tikzpicture}}
+% Draw full-width header/footer decorative boxes behind content
+\AddToShipoutPictureBG{%
+  \begin{tikzpicture}[remember picture,overlay]
+    % compute how many boxes fit across the text width
+    \pgfmathtruncatemacro{\N}{int(\textwidth/\headerfooterboxheight)}
+    % Header row (just below page top)
+    \foreach \i in {0,...,\N} {%
+      \pgfmathtruncatemacro{\modi}{mod(\i,3)}%
+      \ifcase\modi
+        \fill[black] ($(current page.north west)+(0.5in,-0.12in)+(\i*\headerfooterboxheight,0)$) rectangle ++(\headerfooterboxheight,-\headerfooterboxheight);
+      \or
+        \fill[mdanalysisgray] ($(current page.north west)+(0.5in,-0.12in)+(\i*\headerfooterboxheight,0)$) rectangle ++(\headerfooterboxheight,-\headerfooterboxheight);
+      \or
+        \fill[mdanalysisorange] ($(current page.north west)+(0.5in,-0.12in)+(\i*\headerfooterboxheight,0)$) rectangle ++(\headerfooterboxheight,-\headerfooterboxheight);
+      \fi
+    }
+    % Footer row (just above page bottom)
+    \foreach \i in {0,...,\N} {%
+      \pgfmathtruncatemacro{\modi}{mod(\i,3)}%
+      \ifcase\modi
+        \fill[black] ($(current page.south west)+(0.5in,0.12in)+(\i*\headerfooterboxheight,0)$) rectangle ++(\headerfooterboxheight,\headerfooterboxheight);
+      \or
+        \fill[mdanalysisgray] ($(current page.south west)+(0.5in,0.12in)+(\i*\headerfooterboxheight,0)$) rectangle ++(\headerfooterboxheight,\headerfooterboxheight);
+      \or
+        \fill[mdanalysisorange] ($(current page.south west)+(0.5in,0.12in)+(\i*\headerfooterboxheight,0)$) rectangle ++(\headerfooterboxheight,\headerfooterboxheight);
+      \fi
+    }
+  \end{tikzpicture}%
+}
 
-\fancyfoot[L]{\begin{tikzpicture}[baseline]\headerfooterboxes{3}\end{tikzpicture}}
-\fancyfoot[C]{\begin{tikzpicture}[baseline]\headerfooterboxes{3}\end{tikzpicture}}
-\fancyfoot[R]{\includegraphics[height=0.8in]{\mdanalysislogofile}}
+\fancyhead[L]{\begin{tikzpicture}[baseline,yshift=0.55in]\node[inner sep=0]{\includegraphics[height=0.6in]{\mdanalysislogofile}};\end{tikzpicture}}
+\fancyhead[C]{}
+\fancyhead[R]{}
+
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=south east,inner sep=0] at ($(current page.south east)+(-0.24in,0.10in)$) {\includegraphics[height=0.6in]{\mdanalysislogofile}};
+  \end{tikzpicture}%
+}
 
 \geometry{
     left=0.5in,

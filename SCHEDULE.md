@@ -3,7 +3,7 @@
 @brief Master schedule document (Markdown).
 
 Rendering (to PDF):
-    pandoc SCHEDULE.md -H .header.tex -o SCHEDULE.pdf --pdf-engine=xelatex --variable=geometry:margin=1in
+    pandoc SCHEDULE.md -H .header.tex -o SCHEDULE.pdf --pdf-engine=xelatex
 
 -->
 
@@ -11,9 +11,12 @@ Rendering (to PDF):
 \includegraphics[width=0.55\textwidth]{./logos/UGM2025logo_textB.png}
 \end{center}
 
+\begin{center}
+{\Large \textbf{Sunday, November 9th}}
+\end{center}
+
 | Time Start | Time End | Location | Speaker(s) | Title |
 |------------|----------|----------|-------------------------|----------------------------------------------|
-| **Sunday** | **Nov. 9th** |  |  |  |
 | 9:00 AM | 9:15 AM | PSF 186 | Oliver Beckstein | Welcome and Opening, General Organization Remarks |
 | 9:15 AM | 9:45 AM | PSF 186 | Hugo MacDermott-Opeskin | MDAnalysis: Present and Future |
 | 9:45 AM | 10:45 AM | PSF 186 | Matthias Heyden | Keynote: Sub-Picosecond Timescale Information in Microsecond Simulations |
@@ -33,7 +36,15 @@ Rendering (to PDF):
 | 5:10 PM | 5:20 PM | PSF foyer |  | *Tea / Coffee Break* |
 | 5:20 PM | 5:50 PM | PSF 186 |  | Open Hackathon |
 | 5:50 PM | 5:55 PM | PSF 186 | Irfan Alibay | Closing Remarks |
-| **Monday** | **Nov. 10th** |  |  |  |
+
+\newpage
+
+\begin{center}
+{\Large \textbf{Monday, November 10th}}
+\end{center}
+
+| Time Start | Time End | Location | Speaker(s) | Title |
+|------------|----------|----------|-------------------------|----------------------------------------------|
 | 9:00 AM | 9:10 AM | PSH 350 | Jennifer A Clark | Opening Remarks |
 | 9:10 AM | 10:10 AM | PSH 350 | Lillian Chong | Keynote: From Protein Structure to Function: Weighted Ensembles Beyond Machine Learning |
 | 10:10 AM | 10:30 AM | PSH 350 | Ricardo Xavier Ramirez | 2Danalysis: An Open Source Project to Study Complex Lipid Membranes and Their Interaction with Biopolymers |
@@ -65,7 +76,13 @@ Rendering (to PDF):
 | 5:25 PM | 5:40 PM | PSH 350 | Oliver Beckstein | Master Classes: Topology Attributes + DSSP |
 | 5:40 PM | 5:55 PM | PSH 350 | Hugo MacDermott-Opeskin | Master Classes: Distopia in MDAnalysis |
 | 5:55 PM | 6:00 PM | PSH 350 | Irfan Alibay | Master Classes: Closing Remarks |
-| **Tuesday** | **Nov. 11th** |  |  |  |
+
+\begin{center}
+{\Large \textbf{Tuesday, November 11th}}
+\end{center}
+
+| Time Start | Time End | Location | Speaker(s) | Title |
+|------------|----------|----------|-------------------------|----------------------------------------------|
 | 8:30 AM | 8:55 AM | PSF 186 | Workshop Presenters | Workshop Installation Clinic |
 | 8:55 AM | 9:00 AM | PSF 186 | Yuxuan Zhuang | Opening Remarks |
 | 9:00 AM | 11:00 AM | PSF 186 | Brady Johnston and Yuxuan Zhuang | Visualization Workshop |
@@ -85,24 +102,39 @@ Rendering (to PDF):
 | 4:35 PM | 4:50 PM | PSF 186 | Irfan Alibay | Closing Remarks |
 
 
+<!--
 ## The MDAnalysis UGM Has Been Made Possible in Part By:
+-->
 
 \begin{center}
 \begin{tabular}{@{} p{0.32\textwidth} p{0.32\textwidth} p{0.32\textwidth} @{} }
 \begin{minipage}[t]{\linewidth}
-\textbf{Chan Zuckerberg Initiative (CZI)}\\[0.5em]
-Chan Zuckerberg Initiative (CZI) grants; 2022-253062 and DAF2021-237663 (grant DOI \href{https://doi.org/10.37921/426590wiobus}{https://doi.org/10.37921/426590wiobus}), from the Chan Zuckerberg Initiative DAF, an advised fund of Silicon Valley Community Foundation (funder DOI 10.13039/100014989)\\[0.75em]
-\centering\includegraphics[height=5em]{logos/CZI_Logo.jpg}
+\centering
+\textbf{Chan Zuckerberg Initiative (CZI)}
+
+CZI Grants; 2022-253062 and DAF2021-237663
+
+[DOI: 10.37921/426590wiobus]
+
+From the CZI DAF, an advised fund of Silicon Valley Community Foundation [DOI: 10.13039/100014989]
+
+\includegraphics[height=5em]{logos/CZI_Logo.jpg}
 \end{minipage} &
 \begin{minipage}[t]{\linewidth}
-\textbf{National Science Foundation}\\[0.5em]
-National Science Foundation Elements grant 2311372\\[0.75em]
-\centering\includegraphics[height=5em]{logos/nsf.jpg}
+\centering
+\textbf{National Science Foundation (NSF)}
+
+NSF Elements Grant 2311372
+
+\includegraphics[height=5em]{logos/nsf.jpg}
 \end{minipage} &
 \begin{minipage}[t]{\linewidth}
-\textbf{NumFOCUS}\\[0.5em]
-MDAnalysis also thanks \href{https://www.numfocus.org/}{NumFOCUS} for its continued support as our fiscal sponsor.\\[0.75em]
-\centering\includegraphics[height=5em]{logos/numfocus-sponsored.png}
+\centering
+\textbf{NumFOCUS}
+
+MDAnalysis also thanks NumFOCUS for its continued support as our fiscal sponsor.
+
+\includegraphics[height=5em]{logos/numfocus-sponsored.png}
 \end{minipage} \\
 \end{tabular}
 \end{center}
