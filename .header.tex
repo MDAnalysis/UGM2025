@@ -1,13 +1,13 @@
 \usepackage{graphicx}
-% Watermark: 10% opacity, 90% of the page width
 \usepackage{tikz}
 \usepackage{eso-pic}
+\usepackage{ifxetex}
+
+\newcommand{\UGMWatermarkFile}{logos/UGM2025logo_textless_faint.png}
 \AddToShipoutPictureBG{%
     \begin{tikzpicture}[remember picture,overlay]
-        \begin{scope}[opacity=0.10]
-            \node[inner sep=0] at (current page.center) {%
-                \includegraphics[width=0.9\paperwidth]{logos/UGM2025logo_textless.png}%
-            };
-        \end{scope}
+        \node[inner sep=0] at (current page.center) {%
+            \includegraphics[width=0.9\paperwidth]{\UGMWatermarkFile}%
+        };
     \end{tikzpicture}%
-}
+}%
