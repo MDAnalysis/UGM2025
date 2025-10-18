@@ -2,6 +2,9 @@
 \usepackage{tikz}
 \usepackage{eso-pic}
 \usepackage{ifxetex}
+\usepackage{geometry}
+
+\tracinglostchars=0 % Suppress warnings for missing characters in fonts
 
 \newcommand{\UGMWatermarkFile}{logos/UGM2025logo_textless_faint.png}
 \AddToShipoutPictureBG{%
@@ -11,3 +14,51 @@
         };
     \end{tikzpicture}%
 }%
+
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+\definecolor{mdanalysisorange}{RGB}{242,142,42}
+\definecolor{mdanalysisgray}{RGB}{128,128,128}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\newcommand{\mdanalysislogofile}{logos/MDAnalysis_logo.png}
+\newcommand{\headerfooterheight}{0.5in}
+\newcommand{\headerfooterboxheight}{0.25in}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\newcommand{\headerfooterboxes}[1]{%
+    \foreach \i in {1,...,#1} {
+        \pgfmathsetmacro{\modi}{mod(\i-1,3)}
+        \ifcase\modi
+            \node[fill=black, minimum width=\headerfooterboxheight, minimum height=\headerfooterboxheight] at (\i*\headerfooterboxheight,0.1in) {};
+        \or
+            \node[fill=mdanalysisgray, minimum width=\headerfooterboxheight, minimum height=\headerfooterboxheight] at (\i*\headerfooterboxheight,0.1in) {};
+        \or
+            \node[fill=mdanalysisorange, minimum width=\headerfooterboxheight, minimum height=\headerfooterboxheight] at (\i*\headerfooterboxheight,0.1in) {};
+        \fi
+    }
+}
+
+\fancyhead[L]{\includegraphics[height=0.8in]{\mdanalysislogofile}}
+\fancyhead[C]{\begin{tikzpicture}[baseline]\headerfooterboxes{3}\end{tikzpicture}}
+\fancyhead[R]{\begin{tikzpicture}[baseline]\headerfooterboxes{6}\end{tikzpicture}}
+
+\fancyfoot[L]{\begin{tikzpicture}[baseline]\headerfooterboxes{3}\end{tikzpicture}}
+\fancyfoot[C]{\begin{tikzpicture}[baseline]\headerfooterboxes{3}\end{tikzpicture}}
+\fancyfoot[R]{\includegraphics[height=0.8in]{\mdanalysislogofile}}
+
+\geometry{
+    left=1in,
+    right=1in,
+    top=0in,
+    bottom=0.5in,
+    headheight=1in,
+    headsep=0in,
+    includehead,
+    includefoot
+}
