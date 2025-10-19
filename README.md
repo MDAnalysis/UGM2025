@@ -52,6 +52,8 @@ Face coverings are not required, but are welcomed. We view face coverings as a p
 
 Written materials are provided under the [CC-BY-4.0 SA license](LICENSE.md).
 
+The MDAnalysis UGM 2025 logo was created by Fiona Naughton ([@fiona-naughton](https://github.com/fiona-naughton)). The MDAnalysis logo and the MDAnalysis UGM 2025 conference logo may not be used without written permission by the MDAnalysis Project. Any other logos are properties of their owners and may only be used according to their owners' terms.
+
 [NumFOCUS](https://numfocus.org/) as the fiscal sponsor of MDAnalysis holds all rights on the MDAnalysis logos and any future derivatives. See the file [https://github.com/MDAnalysis/branding/blob/main/logos/LICENSE](https://github.com/MDAnalysis/branding/blob/main/logos/LICENSE) for more details.
 
 ## Acknowledgements
