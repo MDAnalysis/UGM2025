@@ -121,7 +121,7 @@ From the CZI DAF, an advised fund of Silicon Valley Community Foundation [DOI: 1
 \end{minipage} &
 \begin{minipage}[t]{\linewidth}
 \centering
-\textbf{National Science Foundation (NSF)}
+\textbf{U.S. National Science Foundation (NSF)}
 
 NSF Elements Grant 2311372
 
