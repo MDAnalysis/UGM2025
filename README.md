@@ -1,5 +1,5 @@
 <img
-src="./logos/UGM2025logo_textB.svg"
+src="./logos/UGM2025logo_textB.png"
 title="MDAnalysis UGM 2025" alt="MDAnalysis UGM 2025"
 style="float: left; height: 25em;" 
 />
