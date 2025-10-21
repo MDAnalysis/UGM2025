@@ -61,19 +61,19 @@ Rendering (to PDF):
 | 2:00 PM | 2:20 PM | PSH 350 | Sudheesh Kumar Ethirajan | OPES-Driven Active-Learning Potentials Reveal Node-Assisted Imidazole Diffusion in Flexible SALEM-2 MOF |
 | 2:20 PM | 2:40 PM | PSH 350 | Bryan Gworek | Elucidating the Mechanisms Underlying Phospholipid-Mediated Capsid Formation and Binding between Arc and PI(3)P |
 | 2:40 PM | 3:00 PM | PSH 350 | Brady Johnston | Shining a Ray-Traced Light on Simulations |
-| 3:00 PM | 3:30 PM | PSH 350 |  | *Tea / Coffee Break* |
-| 3:30 PM | 3:55 PM | PSH 350 |  | Lightning Talks |
+| 3:00 PM | 3:15 PM | PSH 350 |  | *Tea / Coffee Break* |
+| 3:15 PM | 3:40 PM | PSH 350 |  | Lightning Talks |
 |  |  |  | Chris Ausbeck | Directional Coupling and Asymmetry Explain Ligand Specific Allosteric Regulation in LacI |
 |  |  |  | Danis Yangaliev | Coarse-Grained RNA Model for the Martini 3 Force Field |
 |  |  |  | Jessica Bodosa | Improving CHARMM36 Force Field for Lipid Interactions with Calcium and Beryllium using Free Energy Perturbation |
 |  |  |  | Ramón González-Pérez | Exploring the Limits of Ether Oxygen Inclusion in Polymer Membranes for Alkali Ion Separations |
-| 3:55 PM | 4:15 PM | PSH 350 | Augustine Chimezie Onyema | Predicting Interacting Domains in the Nucleosome from Time-Related Kinetic Correlation |
-| 4:15 PM | 4:35 PM | PSH 350 | Chenou Zhang | Conformational Transition of Prestin, the Electro-Mechanical Transducer in Outer Hair Cells of the Inner Ear |
-| 4:35 PM | 4:40 PM | PSH 350 | Oliver Beckstein | Intro to Master Classes |
-| 4:40 PM | 5:10 PM | PSH 350 | Irfan Alibay | Master Class: Intro to MDAKits and Contributing |
-| 5:10 PM | 5:25 PM | PSH 350 |  | *Tea / Coffee Break* |
-| 5:25 PM | 5:40 PM | PSH 350 | Oliver Beckstein | Master Classes: Topology Attributes + DSSP |
-| 5:40 PM | 5:55 PM | PSH 350 | Hugo MacDermott-Opeskin | Master Classes: Distopia in MDAnalysis |
+| 3:40 PM | 4:00 PM | PSH 350 | Augustine Chimezie Onyema | Predicting Interacting Domains in the Nucleosome from Time-Related Kinetic Correlation |
+| 4:00 PM | 4:20 PM | PSH 350 | Chenou Zhang | Conformational Transition of Prestin, the Electro-Mechanical Transducer in Outer Hair Cells of the Inner Ear |
+| 4:20 PM | 4:35 PM | PSH 350 |  | *Tea / Coffee Break* |
+| 4:35 PM | 4:50 PM | PSH 350 | Oliver Beckstein | Master Classes: Topology Attributes + DSSP |
+| 4:50 PM | 5:20 PM | PSH 350 | Irfan Alibay | Master Class: Intro to Contributing to MDAnalysis and MDAKits |
+| 5:20 PM | 5:35 PM | PSH 350 | Hugo MacDermott-Opeskin | Master Classes: Distopia in MDAnalysis |
+| 5:35 PM | 5:55 PM | PSH 350 | Lawson Woods | Master Class: MDAnalysis for ML/Protein Prediction Workflows |
 | 5:55 PM | 6:00 PM | PSH 350 | Irfan Alibay | Master Classes: Closing Remarks |
 
 \begin{center}
