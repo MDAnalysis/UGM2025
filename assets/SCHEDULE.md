@@ -47,7 +47,7 @@ Rendering (to PDF):
 | 9:00 AM | 9:10 AM | PSH 350 | Jennifer A Clark | Opening Remarks |
 | 9:10 AM | 10:10 AM | PSH 350 | Lillian Chong | Keynote: From Protein Structure to Function: Weighted Ensembles Beyond Machine Learning |
 | 10:10 AM | 10:30 AM | PSH 350 | Ricardo Xavier Ramirez | 2Danalysis: An Open Source Project to Study Complex Lipid Membranes and Their Interaction with Biopolymers |
-| 10:30 AM | 10:50 AM | PSH 350 | Tyler Reddy | TBD |
+| 10:30 AM | 10:50 AM | PSH 350 | Tyler Reddy | TBA |
 | 10:50 AM | 11:20 AM | PSH 350 |  | *Tea / Coffee Break* |
 | 11:20 AM | 11:40 AM | PSH 350 | Leah Repa | Membrane-Assisted Transport of Bulky Substrates in a Secondary Active Transporter |
 | 11:40 AM | 12:00 PM | PSH 350 | Prateek Rai | Computer-Aided Discovery and Design of Novel Autotaxin-LPA Signaling Axis Inhibitors to Overcome Cancer Therapeutic Resistance. |
@@ -70,11 +70,11 @@ Rendering (to PDF):
 | 3:40 PM | 4:00 PM | PSH 350 | Augustine Chimezie Onyema | Predicting Interacting Domains in the Nucleosome from Time-Related Kinetic Correlation |
 | 4:00 PM | 4:20 PM | PSH 350 | Chenou Zhang | Conformational Transition of Prestin, the Electro-Mechanical Transducer in Outer Hair Cells of the Inner Ear |
 | 4:20 PM | 4:35 PM | PSH 350 |  | *Tea / Coffee Break* |
-| 4:35 PM | 4:50 PM | PSH 350 | Oliver Beckstein | Master Classes: Topology Attributes + DSSP |
+| 4:35 PM | 4:50 PM | PSH 350 | Oliver Beckstein | Master Class: Topology Attributes + DSSP |
 | 4:50 PM | 5:20 PM | PSH 350 | Irfan Alibay | Master Class: Intro to Contributing to MDAnalysis and MDAKits |
-| 5:20 PM | 5:35 PM | PSH 350 | Hugo MacDermott-Opeskin | Master Classes: Distopia in MDAnalysis |
+| 5:20 PM | 5:35 PM | PSH 350 | Hugo MacDermott-Opeskin | Master Class: Fast Distance Calculations with Distopia in MDAnalysis |
 | 5:35 PM | 5:55 PM | PSH 350 | Lawson Woods | Master Class: MDAnalysis for ML/Protein Prediction Workflows |
-| 5:55 PM | 6:00 PM | PSH 350 | Irfan Alibay | Master Classes: Closing Remarks |
+| 5:55 PM | 6:00 PM | PSH 350 | Irfan Alibay | Closing Remarks |
 
 \begin{center}
 {\Large \textbf{Tuesday, November 11th}}
@@ -89,7 +89,7 @@ Rendering (to PDF):
 | 11:20 AM | 11:50 AM | PSF 186 |  | Lightning Talks |
 |  |  |  | Jherome Brylle Woody Santos | A Stratified Nani Approach for Fast and Scalable K-Means Clustering of Large Molecular Dynamics Datasets |
 |  |  |  | Rekha Joshi | Identification of Specific Interactions between the Membrane Protein Prestin and Lipids |
-|  |  |  | Pooja Shrestha | None |
+|  |  |  | Pooja Shrestha | TBA |
 |  |  |  | Jennifer A Clark | ZENO-MDAKit |
 |  |  |  | Michael A. Sauer | Dynamics-Informed Machine Learning: Physics-Guided Feature Importance Identifies Key Residues for Enzyme Design |
 | 11:50 AM | 12:00 PM | PSF 186 | Irfan Alibay | Intro to the Open Molecular Software Foundation (OMSF) |
