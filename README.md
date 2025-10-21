@@ -24,13 +24,15 @@ Paid parking is available in the Tyler Street Parking Structure and other on-cam
 ## Code of Conduct
 All members of the MDAnalysis community and participants in this UGM are expected to abide by the MDAnalysis [Code of Conduct](https://www.mdanalysis.org/conduct/) (CoC). If at any point you see or experience something that makes you uncomfortable, you may fill out the [reporting form](https://forms.gle/r2SMU4XcwM814CpJ9) or speak with any of the CoC points of contact for the UGM ([Jenna Swarthout Goddard](mailto:community@mdanalysis.org) (online) and [Yuxuan Zhuang](yuxuan.zhuang@mdanalysis.org) (in-person)); the CoC points of contact will identify themselves at the start of the event.
 
-## UGM overview
+## UGM Schedule Overview
 
-| day   | Location                     | description       |
+| Day   | Location                     | Description       |
 |-------|--------------------------|-------------------|
 | Day 1 | PSF 186             | Talks (morning) & streaming workshop (afternoon) |
 | Day 2 | PSH 350             | Talks (morning) & MDAnalysis master classes (afternoon) |
 | Day 3 | PSF 186 | Visualization workshop (morning), Talks (midday), OpenFF / OpenFE / OpenADMET workshops (afternoon) |
+
+See the [Full Schedule](SCHEDULE.pdf)
 
 <!---
 *The full program ([mdaUGM2024-agenda.pdf](./mdaUGM2024-agenda.pdf)) and abstracts book ([mdaUGM2024-abstracts.pdf](./mdaUGM2024-abstracts.pdf)) are included in this repo.* 
@@ -39,18 +41,7 @@ All members of the MDAnalysis community and participants in this UGM are expecte
 ## Health and Safety
 We are committed to providing a safe, comfortable, and healthy environment for the MDAnalysis UGM and have looked to local and international entities and other organizations in the open source community to develop onsite safety measures for UGM attendees.
 
-### Testing
-A COVID-19 test result is not required to determine whether you can attend the UGM. A limited number of rapid self-tests will be made available at check-in for those who would like to test themselves for COVID-19 during the meeting.
-
-*Testing Positive for COVID-19*
-
-Individuals who are COVID-positive should not attend the UGM. If you receive a positive COVID-19 test result during the UGM, please [notify the MDAnalysis UGM organizing committee](mailto:ugm@mdanalysis.org) and do not return to the event while you are still COVID-positive.
-
-### Face Coverings
-Face coverings are not required, but are welcomed. We view face coverings as a personal choice and will support attendees in their choice to wear or not to wear a face covering.
-
 ## License
-
 Written materials are provided under the [CC-BY-4.0 SA license](LICENSE.md).
 
 The MDAnalysis UGM 2025 logo was created by Fiona Naughton ([@fiona-naughton](https://github.com/fiona-naughton)). The MDAnalysis logo and the MDAnalysis UGM 2025 conference logo may not be used without written permission by the MDAnalysis Project. Any other logos are properties of their owners and may only be used according to their owners' terms.
