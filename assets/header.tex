@@ -1,0 +1,99 @@
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{eso-pic}
+\usepackage{ifxetex}
+\usepackage{geometry}
+
+\tracinglostchars=0 % Suppress warnings for missing characters in fonts
+
+\newcommand{\UGMWatermarkFile}{../logos/UGM2025logo_textless_faint.png}
+\AddToShipoutPictureBG{%
+    \begin{tikzpicture}[remember picture,overlay]
+        \node[inner sep=0] at (current page.center) {%
+            \includegraphics[width=0.9\paperwidth]{\UGMWatermarkFile}%
+        };
+    \end{tikzpicture}%
+}%
+
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+\definecolor{mdanalysisorange}{RGB}{242,142,42}
+\definecolor{mdanalysisgray}{RGB}{128,128,128}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\newcommand{\mdanalysislogofile}{../logos/MDAnalysis_logo.png}
+\newcommand{\headerfooterheight}{0.5in}
+\newcommand{\headerfooterboxheight}{0.25in}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\newcommand{\headerfooterboxes}[1]{%
+    \foreach \i in {1,...,#1} {
+        \pgfmathsetmacro{\modi}{mod(\i-1,3)}
+        \ifcase\modi
+            \node[fill=black, minimum width=\headerfooterboxheight, minimum height=\headerfooterboxheight] at (\i*\headerfooterboxheight,0.1in) {};
+        \or
+            \node[fill=mdanalysisgray, minimum width=\headerfooterboxheight, minimum height=\headerfooterboxheight] at (\i*\headerfooterboxheight,0.1in) {};
+        \or
+            \node[fill=mdanalysisorange, minimum width=\headerfooterboxheight, minimum height=\headerfooterboxheight] at (\i*\headerfooterboxheight,0.1in) {};
+        \fi
+    }
+}
+
+% Draw full-width header/footer decorative boxes behind content
+\AddToShipoutPictureBG{%
+  \begin{tikzpicture}[remember picture,overlay]
+    % compute how many boxes fit across the text width
+    \pgfmathtruncatemacro{\N}{int(\textwidth/\headerfooterboxheight)}
+    % Header row (just below page top)
+    \foreach \i in {0,...,\N} {%
+      \pgfmathtruncatemacro{\modi}{mod(\i,3)}%
+      \ifcase\modi
+        \fill[black] ($(current page.north west)+(0.5in,-0.12in)+(\i*\headerfooterboxheight,0)$) rectangle ++(\headerfooterboxheight,-\headerfooterboxheight);
+      \or
+        \fill[mdanalysisgray] ($(current page.north west)+(0.5in,-0.12in)+(\i*\headerfooterboxheight,0)$) rectangle ++(\headerfooterboxheight,-\headerfooterboxheight);
+      \or
+        \fill[mdanalysisorange] ($(current page.north west)+(0.5in,-0.12in)+(\i*\headerfooterboxheight,0)$) rectangle ++(\headerfooterboxheight,-\headerfooterboxheight);
+      \fi
+    }
+    % Footer row (just above page bottom)
+    \foreach \i in {0,...,\N} {%
+      \pgfmathtruncatemacro{\modi}{mod(\i,3)}%
+      \ifcase\modi
+        \fill[black] ($(current page.south west)+(0.5in,0.12in)+(\i*\headerfooterboxheight,0)$) rectangle ++(\headerfooterboxheight,\headerfooterboxheight);
+      \or
+        \fill[mdanalysisgray] ($(current page.south west)+(0.5in,0.12in)+(\i*\headerfooterboxheight,0)$) rectangle ++(\headerfooterboxheight,\headerfooterboxheight);
+      \or
+        \fill[mdanalysisorange] ($(current page.south west)+(0.5in,0.12in)+(\i*\headerfooterboxheight,0)$) rectangle ++(\headerfooterboxheight,\headerfooterboxheight);
+      \fi
+    }
+  \end{tikzpicture}%
+}
+
+\fancyhead[L]{\begin{tikzpicture}[baseline,yshift=0.55in]\node[inner sep=0]{\includegraphics[height=0.6in]{\mdanalysislogofile}};\end{tikzpicture}}
+\fancyhead[C]{}
+\fancyhead[R]{}
+
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=south east,inner sep=0] at ($(current page.south east)+(-0.24in,0.10in)$) {\includegraphics[height=0.6in]{\mdanalysislogofile}};
+  \end{tikzpicture}%
+}
+
+\geometry{
+    left=0.5in,
+    right=0.5in,
+    top=0in,
+    bottom=0.5in,
+    headheight=1in,
+    headsep=0in,
+    includehead,
+    includefoot
+}
