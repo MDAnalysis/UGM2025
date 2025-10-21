@@ -123,7 +123,7 @@ From the CZI DAF, an advised fund of Silicon Valley Community Foundation [DOI: 1
 \centering
 \textbf{U.S. National Science Foundation (NSF)}
 
-NSF Elements Grant 2311372
+NSF award 2311372 (Elements: Streaming Molecular Dynamics Simulation Trajectories for Direct Analysis: Applications to Sub-Picosecond Dynamics in Microsecond Simulations)
 
 \includegraphics[height=5em]{../logos/nsf.jpg}
 \end{minipage} &
