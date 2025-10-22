@@ -1,3 +1,7 @@
 ## Streaming workshop @ MDAnalysis UGM2025
 
-These materials are currently under construction!
+Sunday afternoon we will have a focus on *streaming* in MDAnalysis:
+
+* background presentations
+* applications
+* hands-on workshop
