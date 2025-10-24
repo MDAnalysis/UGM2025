@@ -28,11 +28,11 @@ All members of the MDAnalysis community and participants in this UGM are expecte
 
 | Day   | Location                     | Description       |
 |-------|--------------------------|-------------------|
-| Day 1 | PSF 186             | Talks (morning) & streaming workshop (afternoon) |
-| Day 2 | PSH 350             | Talks (morning) & MDAnalysis master classes (afternoon) |
+| Day 1 | PSF 186             | Key Note (morning), Talks (morning) & streaming workshop (afternoon) |
+| Day 2 | PSH 350             | Key Note (morning), Talks (morning, afternoon) & MDAnalysis master classes (afternoon) |
 | Day 3 | PSF 186 | Visualization workshop (morning), Talks (midday), OpenFF / OpenFE / OpenADMET workshops (afternoon) |
 
-See the [Full Schedule](SCHEDULE.pdf)
+See the [Full Schedule](SCHEDULE.pdf) for details.
 
 <!---
 *The full program ([mdaUGM2024-agenda.pdf](./mdaUGM2024-agenda.pdf)) and abstracts book ([mdaUGM2024-abstracts.pdf](./mdaUGM2024-abstracts.pdf)) are included in this repo.* 
@@ -44,9 +44,10 @@ We are committed to providing a safe, comfortable, and healthy environment for t
 ## License
 Written materials are provided under the [CC-BY-4.0 SA license](LICENSE.md).
 
-The MDAnalysis UGM 2025 logo was created by Fiona Naughton ([@fiona-naughton](https://github.com/fiona-naughton)). The MDAnalysis logo and the MDAnalysis UGM 2025 conference logo may not be used without written permission by the MDAnalysis Project. Any other logos are properties of their owners and may only be used according to their owners' terms.
-
+The MDAnalysis UGM 2025 conference logo was created by Fiona Naughton ([@fiona-naughton](https://github.com/fiona-naughton)). The MDAnalysis logo and the MDAnalysis UGM 2025 conference logo may not be used without written permission by the MDAnalysis Project. 
 [NumFOCUS](https://numfocus.org/) as the fiscal sponsor of MDAnalysis holds all rights on the MDAnalysis logos and any future derivatives. See the file [https://github.com/MDAnalysis/branding/blob/main/logos/LICENSE](https://github.com/MDAnalysis/branding/blob/main/logos/LICENSE) for more details.
+
+Any other logos are properties of their owners and may only be used according to their owners' terms.
 
 ## Acknowledgements
 
