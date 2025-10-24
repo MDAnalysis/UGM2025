@@ -28,8 +28,8 @@ All members of the MDAnalysis community and participants in this UGM are expecte
 
 | Day   | Location                     | Description       |
 |-------|--------------------------|-------------------|
-| Day 1 | PSF 186             | Key Note (morning), Talks (morning) & streaming workshop (afternoon) |
-| Day 2 | PSH 350             | Key Note (morning), Talks (morning, afternoon) & MDAnalysis master classes (afternoon) |
+| Day 1 | PSF 186             | Keynote (morning), Talks (morning) & streaming workshop (afternoon) |
+| Day 2 | PSH 350             | Keynote (morning), Talks (morning, afternoon) & MDAnalysis master classes (afternoon) |
 | Day 3 | PSF 186 | Visualization workshop (morning), Talks (midday), OpenFF / OpenFE / OpenADMET workshops (afternoon) |
 
 See the [Full Schedule](SCHEDULE.pdf) for details.
