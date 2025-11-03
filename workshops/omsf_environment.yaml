@@ -1,7 +1,8 @@
-name: openff-env
+name: omsf-env
 channels:
     - conda-forge
 dependencies:
+    - python=3.12
     - jupyter
     - jupyter_contrib_nbextensions
     - openff-toolkit-examples>=0.17.0 # New version needed for NAGL compat.
@@ -12,3 +13,4 @@ dependencies:
     - openbabel # For conversion of the pdbqt files to sdf (last exercise)
     - rdkit
     - nglview
+    - openfe=1.7.0
