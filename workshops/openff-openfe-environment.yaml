@@ -1,4 +1,4 @@
-name: omsf-env
+name: openff-openfe
 channels:
     - conda-forge
 dependencies:
