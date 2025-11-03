@@ -4,5 +4,5 @@ channels:
 dependencies:
 - openfe==1.7.0
 - python==3.12
-# - jupyterlab *
-# - mdanalysis
+- jupyterlab *
+- mdanalysis
