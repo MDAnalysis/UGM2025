@@ -9,7 +9,7 @@ Installing from conda-forge is simplest, and you can use `micromamba` (suggested
 ```bash
 
 micromamba create -f environment.yaml
-micromamba activate openff-openfe-demo
+micromamba activate openff-openfe
 
 ```
 
