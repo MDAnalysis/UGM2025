@@ -41,6 +41,24 @@ See the [Full Schedule](SCHEDULE.pdf) for details.
 ## Health and Safety
 We are committed to providing a safe, comfortable, and healthy environment for the MDAnalysis UGM and have looked to local and international entities and other organizations in the open source community to develop onsite safety measures for UGM attendees.
 
+
+## IT Logistics
+
+### Connecting to the Wireless Network/WiFi
+
+* The **asu guest** wireless network is available to all participants but limited in capabilities.
+* The **eduroam** network is available to anyone whose institution participates in eduroam. If you need to set up anything, talk to your institution's IT support before coming to ASU.
+* The **asu** network is only available to members of Arizona State University.
+
+See [CONNECTIVITY](CONNECTIVITY.md) for details.
+
+
+### GitHub account and Code Spaces
+
+In order to participate in some of the workshops you will need to be able to run a [Code Space](https://github.com/features/codespaces) instance in your personal GitHub account. This requires a GitHub account and either free or paid credits. For most users, the monthly free Codespaces allowance on their *individual* accounts (120 core hours, 15 GB storage) should be sufficient. 
+
+
+
 ## License
 Written materials are provided under the [CC-BY-4.0 SA license](LICENSE.md).
 
