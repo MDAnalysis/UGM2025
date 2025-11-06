@@ -9,6 +9,10 @@ George M. Bateman Physical Sciences Center F Wing ([Google Maps coordinates 33.4
 550 Tyler Mall<br/>
 Tempe, AZ 85287
 
+**GETTING INTO ASU BUILDINGS**: The meeting is held in ASU buildings that may be locked on Sunday and Tuesday. If you cannot get into the building, **send a message to the UGM2025 [#contact-organizers](https://discord.com/channels/807348386012987462/1436034423559557140) discord channel** that someone should please let you in. You can also contact the organizers through this channel if you need help with any other issues related to the conference.
+
+
+
 ## From PHX Airport
 
 Phoenix Sky Harbor [PHX](https://www.skyharbor.com/) airport has direct connections to all major hubs in the US.
