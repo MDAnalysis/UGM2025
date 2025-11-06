@@ -44,7 +44,7 @@ Waymo) or rideshare (Lyft, Uber).
 The [Hyatt Place Tempe Phoenix University Hotel](https://www.hyatt.com/en-US/hotel/arizona/hyatt-place-tempe-phoenix-university) is 5 mins walk from the conference venue. 
 
 
-See the map ([PDF](./assets/maps/MDAUGM2025_ASU_Tempe.pdf) for download) and follow the path from **Hyatt Place** to **PSF** for *Day 1 & 3* and to **PSH** for *Day 2**. See step-by-step descriptions below the map.
+See the map ([PDF](./assets/maps/MDAUGM2025_ASU_Tempe.pdf) for download) and follow the path from **Hyatt Place** to **PSF** for *Day 1 & 3* and to **PSH** for *Day 2*. See step-by-step descriptions below the map.
 ![Map of the area around the ASU Physical Sciences area with path from Hyatt Place Tempe to PSF](./assets/maps/MDAUGM2025_ASU_Tempe.png)
 
 
@@ -80,7 +80,7 @@ On Monday (Day 2), talks  will be held in the **Physical Sciences F** (PSF) Buil
 
 ## Light Rail to conference venue
 
-Walk from the nearest Light Rail stop to the Physical Sciences F building (venue for **Day 1 & 3**)
+Walk from the nearest Light Rail stop to the Physical Sciences F building (venue for **Day 1 & 3**):
 
 1. Get off at **University Dr/Rural Rd** (Stop #10023)
 2. Walk Southwest towards Tyler St.
@@ -94,7 +94,7 @@ Walk from the nearest Light Rail stop to the Physical Sciences F building (venue
 
 For **Day 2**, see the map for how to get from PSF to PSH:
 
-1. Exit PSF to the Northwest exit.
+1. Exit PSF using the Northwest exit.
 2. Walk North towards University Dr. to the archway. 
 3. Turn left (West) under the archway to enter PSH.
 4. Take elevator to 3rd floor and enter PSH 350 opposite the elevators.
@@ -113,7 +113,7 @@ The closest car-accessible area is near the North side of Physical Sciences Buil
 
 For **Day 2**, see the map for how to get from PSF to PSH:
 
-1. Exit PSF to the Northwest exit.
+1. Exit PSF using the Northwest exit.
 2. Walk North towards University Dr. to the archway. 
 3. Turn left (West) under the archway to enter PSH.
 4. Take elevator to 3rd floor and enter PSH 350 opposite the elevators.
