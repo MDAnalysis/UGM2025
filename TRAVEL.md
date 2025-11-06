@@ -13,26 +13,26 @@ Tempe, AZ 85287
 
 Phoenix Sky Harbor [PHX](https://www.skyharbor.com/) airport has direct connections to all major hubs in the US.
 
-PHX airport is 5.5 miles (10 minutes by car/rideshare) from the workshop venue.
+PHX airport is 5.5 miles (10 minutes by car/rideshare) from the conference venue.
 
 ### Public transport (Light Rail)
 
-The [Valley Metro Light Rail][Light Rail] connects the airport to Tempe along a
+The [Valley Metro Light Rail](https://www.valleymetro.org/maps-schedules/rail) connects the airport to Tempe along a
 West-East axis. If your destination is near a Light Rail stop then
 public transport works well:
 
-1. Take the free [PHX Sky Train][] from the terminal to the **44th St/Washington**
+1. Take the free [PHX Sky Train](https://www.skyharbor.com/ground-transportation/phx-sky-train/) from the terminal to the **44th St/Washington**
 Metro Rail stop.
 2. Walk from the Sky Train stop to the Light Rail stop (all inside the 44th St
 Sky Train structure).
 3. Buy a ticket at the ticket machine near the exit escalators to the Light
 Rail stop.
-4. At the [44th St/Washington stop][LightRail44thSt] (Stop #10018) take the
+4. At the [44th St/Washington stop](https://valleymetro.org/maps-schedules/RAIL?location=44th%20St/Washington,%20East%20Washington%20Street,%20Phoenix,%20AZ,%20USA) (Stop #10018) take the
 *east-bound* Light Rail (direction Mesa, Gilbert Rd/Main St).
-5. The stop closest to the Hyatt Place Hotel and the workshop venue is
+5. The stop closest to the Hyatt Place Hotel and the conference venue is
 **University Dr/Rural Rd** (Stop #10023). If you want to get off closer to
 downtown Tempe get off one stop earlier at **Veterans Way/College Ave** (Stop #10025).
-6. Walk to your destination. (See below)
+6. Walk to your destination. (see below)
 
 ### Car/rideshare
 
