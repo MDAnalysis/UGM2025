@@ -13,9 +13,15 @@ The [2025 MDAnalysis User Group Meeting](https://www.mdanalysis.org/pages/ugm202
 ## When and Where
 ### **November 9-11th 2025**
 
-[Center for Biological Physics](https://cbp.asu.edu/) at [Arizona State University](https://www.asu.edu/), 550 E Tyler Mall, PSF 186, Tempe, AZ 85287, USA
+[Center for Biological Physics](https://cbp.asu.edu/) at [Arizona State University](https://www.asu.edu/), [550 E Tyler Mall](https://www.google.com/maps/place/Physical+Sciences+Center+F-Wing/@33.4214777,-111.9311025,18z/data=!4m6!3m5!1s0x872b08dc4ac6af5f:0x213722c63856da62!8m2!3d33.4210023!4d-111.9313576!16s%2Fg%2F11c2mc_myh), PSF 186, Tempe, AZ 85287, USA
 
 Paid parking is available in the Tyler Street Parking Structure and other on-campus parking structures.
+
+### Contacting the organizers during the meeting
+
+If you need to contact the organizers **send a message to the UGM2025 [#contact-organizers](https://discord.com/channels/807348386012987462/1436034423559557140) discord channel**. Someone will then get in touch with you and help you solve the issue. For example, message if you cannot get into a building, if you're lost on ASU campus, or you have another urgent problem.
+
+You need to sign up for the [MDAnalysis discord server](https://discord.com/channels/807348386012987462/1418333436988358715). Use the invite link https://discord.gg/fXTSfDJyxE .
 
 ### Travel instructions
 
