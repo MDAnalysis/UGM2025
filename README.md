@@ -17,9 +17,13 @@ The [2025 MDAnalysis User Group Meeting](https://www.mdanalysis.org/pages/ugm202
 
 Paid parking is available in the Tyler Street Parking Structure and other on-campus parking structures.
 
-<!---
-*Directions and a campus map ([UGM_directions.pdf](./UGM_directions.pdf)) are included in this repo.* 
--->
+### Travel instructions
+
+See [TRAVEL](TRAVEL.md) for **detailed instructions** for how to get to the conference venue (Physical Sciences Building F, [Google Maps coordinates 33.4214777,-111.9311025](https://www.google.com/maps/place/Physical+Sciences+Center+F-Wing/@33.4214777,-111.9311025,18z/data=!4m6!3m5!1s0x872b08dc4ac6af5f:0x213722c63856da62!8m2!3d33.4210023!4d-111.9313576!16s%2Fg%2F11c2mc_myh), plus-code: C3C9+CF Tempe, Arizona) or use the overview map below ([PDF](./assets/maps/asu_map_tempe_current.pdf)).
+
+![ASU Tempe Campus with MDAnalysis UGM 2025 location in Physical Sciences Building F (PSF) and paths from the Hyatt Place Hotel, the University Dr/Rural Rd Light Rail stop, and the 649 E University Dr. parking lot to PSF.](./assets/maps/asu_map_tempe_current.jpg)
+
+
 
 ## Code of Conduct
 All members of the MDAnalysis community and participants in this UGM are expected to abide by the MDAnalysis [Code of Conduct](https://www.mdanalysis.org/conduct/) (CoC). If at any point you see or experience something that makes you uncomfortable, you may fill out the [reporting form](https://forms.gle/r2SMU4XcwM814CpJ9) or speak with any of the CoC points of contact for the UGM ([Jenna Swarthout Goddard](mailto:community@mdanalysis.org) (online) and [Yuxuan Zhuang](yuxuan.zhuang@mdanalysis.org) (in-person)); the CoC points of contact will identify themselves at the start of the event.
