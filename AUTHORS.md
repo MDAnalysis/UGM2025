@@ -20,3 +20,6 @@ The rules for this file:
 
 **2025**
 - Irfan Alibay <@IAlibay>
+- Hugo MacDermott <@hmacdope>
+- Alyssa Travitz <@atravitz>
+- Jeff Wagner <@j-wags>
