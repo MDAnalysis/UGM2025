@@ -86,13 +86,12 @@ Rendering (to PDF):
 | 8:55 AM | 9:00 AM | PSF 186 | Yuxuan Zhuang | Opening Remarks |
 | 9:00 AM | 11:00 AM | PSF 186 | Brady Johnston and Yuxuan Zhuang | Visualization Workshop |
 | 11:00 AM | 11:20 AM | PSF foyer |  | *Tea / Coffee Break* |
-| 11:20 AM | 11:50 AM | PSF 186 |  | Lightning Talks |
+| 11:20 AM | 11:45 AM | PSF 186 |  | Lightning Talks |
 |  |  |  | Jherome Brylle Woody Santos | A Stratified Nani Approach for Fast and Scalable K-Means Clustering of Large Molecular Dynamics Datasets |
 |  |  |  | Rekha Joshi | Identification of Specific Interactions between the Membrane Protein Prestin and Lipids |
-|  |  |  | Pooja Shrestha | TBA |
+|  |  |  | Pooja Shrestha | Directional Bias Changes in Active Site Region Revealed by Spectral Assignment of Inter-Domain Correlation Mapping in Lysozyme |
 |  |  |  | Jennifer A Clark | ZENO-MDAKit |
-|  |  |  | Michael A. Sauer | Dynamics-Informed Machine Learning: Physics-Guided Feature Importance Identifies Key Residues for Enzyme Design |
-| 11:50 AM | 12:00 PM | PSF 186 | Irfan Alibay | Intro to the Open Molecular Software Foundation (OMSF) |
+| 11:45 AM | 12:00 PM | PSF 186 | Irfan Alibay | Intro to the Open Molecular Software Foundation (OMSF) |
 | 12:00 PM | 1:05 PM | PSF 186 | Jeffrey Wagner, Jennifer A Clark | Open Force Field Workshop |
 | 1:05 PM | 2:20 PM | PSF foyer |  | *Lunch* |
 | 2:20 PM | 3:20 PM | PSF 186 | Mike Henry, Alyssa Travitz, Irfan Alibay | Open Free Energy Workshop |
