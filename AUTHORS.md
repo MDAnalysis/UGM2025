@@ -23,3 +23,4 @@ The rules for this file:
 - Hugo MacDermott <@hmacdope>
 - Alyssa Travitz <@atravitz>
 - Jeff Wagner <@j-wags>
+- Jennifer Clark <@jaclark5>
