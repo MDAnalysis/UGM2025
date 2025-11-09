@@ -103,6 +103,18 @@ title="U.S. National Science Foundation Logo" alt="U.S. National Science Foundat
 style="float: left; height: 5em; " />
 <a/>
 
+### Center for Biological Physics at Arizona State University
+
+The Center for Biological Physics at Arizona State University provided the venue and logistical support.
+
+<a href="https://cbp.asu.edu/">
+<img
+src="/logos/CBP_logo.png"
+title="Center for Biological Physics at Arizona State University" alt="Center for Biological Physics at Arizona State University Logo"
+style="float: left; height: 5em; " />
+<a/>
+
+
 ### NumFOCUS
 
 MDAnalysis also thanks [NumFOCUS](https://www.numfocus.org/) for its continued support as our fiscal sponsor.
@@ -113,3 +125,4 @@ src="/logos/numfocus-sponsored.png"
 title="NumFOCUS Sponsored Project Logo" alt="NumFOCUS Sponsored Project Logo"
 style="float: left; height: 5em; " />
 <a/>
+
