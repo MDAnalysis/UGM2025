@@ -29,11 +29,11 @@ Rendering (to PDF):
 | 2:50 PM | 3:10 PM | PSF 186 | Lawson Woods | IMDv3 Streaming: Theory, Implementation, Technical Details |
 | 3:10 PM | 3:30 PM | PSF 186 | Amruthesh Thirumalaiswamy | IMDv3 in Practice: MD Packages, Performance |
 | 3:30 PM | 3:45 PM | PSF foyer |  | *Tea / Coffee Break* |
-| 3:45 PM | 4:05 PM | PSF 186 | Heekun Cho | Streaming Applications Demo (2 Examples) |
+| 3:45 PM | 4:05 PM | PSF 186 | Matthias Heyden | Streaming Applications Demo (2 Examples) |
 | 4:05 PM | 5:05 PM | PSF 186 | Amruthesh Thirumalaiswamy | Streaming Workshop |
 | 5:05 PM | 5:25 PM | PSF 186 | Jamie Rowe | Integrating MDAnalysis Streaming Analysis with WESTPA |
 | 5:25 PM | 5:35 PM | PSF foyer |  | *Tea / Coffee Break* |
-| 5:35 PM | 5:55 PM | PSF 186 | Heekun Cho | Streaming Applications Demo |
+| 5:35 PM | 5:55 PM | PSF 186 | Matthias Heyden | Streaming Applications Demo |
 | 5:55 PM | 6:00 PM | PSF 186 | Irfan Alibay | Closing Remarks |
 
 \newpage
