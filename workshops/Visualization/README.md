@@ -1,5 +1,9 @@
 ## Visualization workshop @ MDAnalysis UGM2025
 
+> [!WARNING]
+> Bring your laptop charger!
+> Blender really loves to drain your battery. If you don't bring your laptop charger you will probably run out of battery!
+
 ## Data files
 
 > [!TIP]
