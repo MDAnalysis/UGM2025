@@ -47,7 +47,7 @@ Rendering (to PDF):
 | 9:00 AM | 9:10 AM | PSH 350 | Jennifer A Clark | Opening Remarks |
 | 9:10 AM | 10:10 AM | PSH 350 | Lillian Chong | Keynote: From Protein Structure to Function: Weighted Ensembles Beyond Machine Learning |
 | 10:10 AM | 10:30 AM | PSH 350 | Ricardo Xavier Ramirez | 2Danalysis: An Open Source Project to Study Complex Lipid Membranes and Their Interaction with Biopolymers |
-| 10:30 AM | 10:50 AM | PSH 350 | Tyler Reddy | Modernization of the MDAnalysis developer tools |
+| 10:30 AM | 10:50 AM | PSH 350 | Tyler Reddy | Modernization of the MDAnalysis Developer Tools |
 | 10:50 AM | 11:20 AM | PSH 350 |  | *Tea / Coffee Break* |
 | 11:20 AM | 11:40 AM | PSH 350 | Leah Repa | Membrane-Assisted Transport of Bulky Substrates in a Secondary Active Transporter |
 | 11:40 AM | 12:00 PM | PSH 350 | Prateek Rai | Computer-Aided Discovery and Design of Novel Autotaxin-LPA Signaling Axis Inhibitors to Overcome Cancer Therapeutic Resistance. |
