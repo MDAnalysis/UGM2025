@@ -1,0 +1,35 @@
+      :-) GROMACS - gmx grompp, 2026.0-dev-20241217-28964b1459-unknown (-:
+
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/law/workspace/UGM2025/workshops/Streaming/streaming-theory
+Command line:
+  gmx grompp -f imd.mdp -c start.gro -p topol.top -o
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2026.0-dev-20241217-28964b1459-unknown
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -f
+    File 'imd.mdp' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -c
+    File 'start.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -p
+    File 'topol.top' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
