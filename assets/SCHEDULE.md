@@ -71,9 +71,9 @@ Rendering (to PDF):
 | 4:00 PM | 4:20 PM | PSH 350 | Chenou Zhang | Conformational Transition of Prestin, the Electro-Mechanical Transducer in Outer Hair Cells of the Inner Ear |
 | 4:20 PM | 4:35 PM | PSH 350 |  | *Tea / Coffee Break* |
 | 4:35 PM | 4:50 PM | PSH 350 | Oliver Beckstein | Master Class: Topology Attributes + DSSP |
-| 4:50 PM | 5:20 PM | PSH 350 | Irfan Alibay | Master Class: Intro to Contributing to MDAnalysis and MDAKits |
-| 5:20 PM | 5:35 PM | PSH 350 | Hugo MacDermott-Opeskin | Master Class: Fast Distance Calculations with Distopia in MDAnalysis |
-| 5:35 PM | 5:55 PM | PSH 350 | Lawson Woods | Master Class: MDAnalysis for ML/Protein Prediction Workflows |
+| 4:50 PM | 5:05 PM | PSH 350 | Hugo MacDermott-Opeskin | Master Class: Fast Distance Calculations with Distopia in MDAnalysis |
+| 5:05 PM | 5:35 PM | PSH 350 | Irfan Alibay | Master Class: Intro to Contributing to MDAnalysis and MDAKits |
+| 5:35 PM | 5:55 PM | PSH 350 | CoreDevs | Ask me anything: Open Q&A |
 | 5:55 PM | 6:00 PM | PSH 350 | Irfan Alibay | Closing Remarks |
 
 \begin{center}
