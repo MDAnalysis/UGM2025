@@ -32,7 +32,7 @@ See [TRAVEL](TRAVEL.md) for **detailed instructions** for how to get to the conf
 
 
 ## Code of Conduct
-All members of the MDAnalysis community and participants in this UGM are expected to abide by the MDAnalysis [Code of Conduct](https://www.mdanalysis.org/conduct/) (CoC). If at any point you see or experience something that makes you uncomfortable, you may fill out the [reporting form](https://forms.gle/r2SMU4XcwM814CpJ9) or speak with any of the CoC points of contact for the UGM ([Jenna Swarthout Goddard](mailto:community@mdanalysis.org) (online) and [Yuxuan Zhuang](yuxuan.zhuang@mdanalysis.org) (in-person)); the CoC points of contact will identify themselves at the start of the event.
+All members of the MDAnalysis community and participants in this UGM are expected to abide by the MDAnalysis [Code of Conduct](https://www.mdanalysis.org/conduct/) (CoC). If at any point you see or experience something that makes you uncomfortable, you may fill out the [reporting form](https://www.mdanalysis.org/conduct/#how-to-report) or speak with any of the CoC points of contact for the UGM ([Jenna Swarthout Goddard](mailto:community@mdanalysis.org) (online) and [Yuxuan Zhuang](yuxuan.zhuang@mdanalysis.org) (in-person)); the CoC points of contact will identify themselves at the start of the event.
 
 ## UGM Schedule Overview
 
