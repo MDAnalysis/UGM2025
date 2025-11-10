@@ -4,9 +4,9 @@ ARG DISTRO_VER
 ARG DISTRO_NAME
 FROM --platform=linux/${DISTRO_ARCH} nvidia/cuda:${CUDA_VER}-devel-${DISTRO_NAME}${DISTRO_VER} as conda
 
-COPY openff-openfe-environment.yaml  env.yaml
+COPY workshops/openff-openfe-environment.yaml  env.yaml
 RUN . /opt/conda/etc/profile.d/conda.sh && \
-        conda env create -n workshop --file=env.yaml
+        conda env create -n openff-openfe --file=env.yaml
 
 RUN  . /opt/conda/etc/profile.d/conda.sh && \
         conda clean --all -y -f

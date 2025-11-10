@@ -77,8 +77,8 @@ if [ -f "/opt/conda/etc/profile.d/conda.sh" ]; then
   . "/opt/conda/etc/profile.d/conda.sh"
   
   # Activate the workshop environment only if it exists; silence errors otherwise.
-  if conda info --envs 2>/dev/null | awk '{print $1}' | grep -qx 'workshop'; then
-    conda activate workshop 2>/dev/null || true
+  if conda info --envs 2>/dev/null | awk '{print $1}' | grep -qx 'openff-openfe'; then
+    conda activate openff-openfe 2>/dev/null || true
   fi
 elif [ -f "/opt/conda/bin/conda" ]; then
   # Fallback: just add conda to PATH if the init script doesn't exist
