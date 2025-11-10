@@ -4,14 +4,6 @@ FROM mambaorg/micromamba:1.5.10
 # Switch to root for system package installation
 USER root
 
-# Install essential system packages only
-RUN apt-get update && apt-get install -y \
-    git \
-    vim \
-    curl \
-    build-essential \
-    && rm -rf /var/lib/apt/lists/*
-
 # Copy environment file
 COPY --chown=$MAMBA_USER:$MAMBA_USER workshops/openff-openfe-environment.yaml /tmp/env.yaml
 
