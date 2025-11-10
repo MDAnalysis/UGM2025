@@ -1,13 +1,13 @@
 #!/bin/bash -il
 
 # Use non-interactive cp
-unalias cp
+unalias cp 2>/dev/null || true
 # Always use workshop-user for consistency
 USERNAME=workshop-user
 USER_ID=${HOST_USER_ID:-9001}
 
-# Create user with zsh as default shell
-useradd --shell /bin/zsh -u $USER_ID -G lucky -o -c "" -m $USERNAME
+# Create user with bash as default shell (zsh removed, lucky group removed)
+useradd --shell /bin/bash -u $USER_ID -o -c "" -m $USERNAME
 export HOME=/home/$USERNAME
 export USER=$USERNAME
 export LOGNAME=$USERNAME

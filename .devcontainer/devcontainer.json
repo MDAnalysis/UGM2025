@@ -1,18 +1,24 @@
 {
+  "name": "OpenFF-OpenFE Workshop",
   "build": { 
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
+    "context": ".."
   },
   "remoteUser": "workshop-user",
-  "workspaceFolder": "/workshops",
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
   "customizations": {
     "vscode": {
-      "extensions": ["ms-python.python", "ms-toolsai.jupyter"],
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ],
       "settings": {
-        "python.defaultInterpreterPath": "/opt/conda/envs/workshop/bin/python",
-        "terminal.integrated.shell.linux": "/bin/zsh"
+        "python.defaultInterpreterPath": "/opt/conda/envs/openff-openfe/bin/python",
+        "terminal.integrated.defaultProfile.linux": "bash"
       }
     }
   },
-  "postCreateCommand": "git config --global --add safe.directory /workshops",
-  "postStartCommand": "/bin/zsh -c '. /opt/conda/etc/profile.d/conda.sh && conda activate openff-openfe && python -m ipykernel install --user --name workshop --display-name \"workshop\"'"
+  "postCreateCommand": "git config --global --add safe.directory /workspace",
+  "postStartCommand": "bash -c 'source /opt/conda/etc/profile.d/conda.sh && conda activate openff-openfe && python -m ipykernel install --user --name openff-openfe --display-name \"OpenFF-OpenFE\"'"
 }
