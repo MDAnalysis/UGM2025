@@ -4,6 +4,7 @@ channels:
 dependencies:
     - python=3.12
     - jupyter
+    - jupyter_client>=8.5.0  # https://github.com/jupyter/jupyter_client/pull/972
     - jupyter_contrib_nbextensions
     - openff-toolkit-examples>=0.17.0 # New version needed for NAGL compat.
     - openff-interchange>=0.4.7 # New version needed for NAGL compat.
