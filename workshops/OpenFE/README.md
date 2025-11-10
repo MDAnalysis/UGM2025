@@ -4,11 +4,14 @@
 
 ## Installing openfe 
 
+Note that OpenFE and OpenFF are using the same environment for our workshops - if you've 
+installed one environment, you're ready for both workshops!
+
 Installing from conda-forge is simplest, and you can use `micromamba` (suggested), `mamba` or `conda`:
 
 ```bash
 
-micromamba create -f environment.yaml
+micromamba create -f openff-openfe-environment.yaml
 micromamba activate openff-openfe
 
 ```
