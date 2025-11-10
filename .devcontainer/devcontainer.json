@@ -4,7 +4,7 @@
     "dockerfile": "Dockerfile",
     "context": ".."
   },
-  "remoteUser": "workshop-user",
+  "remoteUser": "mambauser",
   "workspaceFolder": "/workspace",
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
   "customizations": {
@@ -20,5 +20,5 @@
     }
   },
   "postCreateCommand": "git config --global --add safe.directory /workspace",
-  "postStartCommand": "bash -c 'source /opt/conda/etc/profile.d/conda.sh && conda activate openff-openfe && python -m ipykernel install --user --name openff-openfe --display-name \"OpenFF-OpenFE\"'"
+  "postStartCommand": "bash -c 'eval \"$(micromamba shell hook --shell bash)\" && micromamba activate openff-openfe && python -m ipykernel install --user --name openff-openfe --display-name \"OpenFF-OpenFE\"'"
 }
