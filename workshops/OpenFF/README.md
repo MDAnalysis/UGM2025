@@ -11,7 +11,7 @@ In this **75 min** tutorial you will learn:
 Create a new conda environment for this workshop with:
 ```bash
 mamba create -f ../openff-openfe-environment.yaml
-mamba activate openff-env
+mamba activate openff-openfe
 ```
 
 ### Get Connected
