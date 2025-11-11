@@ -42,3 +42,9 @@ For the workshop, we will mostly be covering material described in the [Blender'
 There are additionally a series of YouTube videos introducing and covering different aspects of Molecular Nodes. They are quite outdated now but a lot of the central ideas of working in node trees remains the same and are still useful.
 
 ![https://youtu.be/CvmFaRVmZRU](https://img.youtube.com/vi/CvmFaRVmZRU/0.jpg)
+
+## Additional Resources: 
+
+Scientific Vizualisation course with Blender: https://surf-visualization.github.io/blender-course/
+
+Links to additional miscenllaneous resources: https://github.com/BradyAJohnston/MolecularNodes/issues/734#issue-2847207357
