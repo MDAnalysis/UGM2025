@@ -4,14 +4,14 @@
 
 In this **75 min** tutorial you will learn:
 1) How to apply the OpenFF-Toolkit and OpenFF-Interchange to build a parametrized simulation box and run with OpenMM
-2) About our force field options including our newly released AshGC neural network charges and our Sage 2.3.0-alpha release for protein simulations.
+2) About our force field options including our newly released AshGC neural network charge model and our Sage 2.3.0 release candidate for rapid charge assignment.
 
 ### Installation
 
 Create a new conda environment for this workshop with:
 ```bash
-conda create -f environment.yaml
-conda activate openff-env
+mamba create -f ../openff-openfe-environment.yaml
+mamba activate openff-env
 ```
 
 ### Get Connected
